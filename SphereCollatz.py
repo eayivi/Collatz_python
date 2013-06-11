@@ -18,15 +18,11 @@ cycle_length_store = [0] * 1000000
 def cycle_length (n) :
     #print "n is ", n
     assert ( n > 0)
-
-
     c =1
 
     while (n>1) :
 
         if (n < 1000000 and cycle_length_store[n] !=0) :
-            #print "\n cycle_length_store = ", cycle_length_store[n]
-            #print "{} has cycle {}".format(n, cycle_length_store[n])
             return cycle_length_store[n] +c -1
 
         else :
@@ -36,10 +32,8 @@ def cycle_length (n) :
             else :
                 n = 3*n +1
                 c = c+1
-            
-        #print "\nc is ", c
 
-
+    assert (c>0)
     return c
 
 
