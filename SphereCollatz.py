@@ -42,26 +42,6 @@ def cycle_length (n) :
 
     return c
 
-# def cycle_length (n) :
-
-#     assert ( n > 0);
-#     valueToStore = n
-
-#     if (n < 100000 and cycle_length_store[n] !=0) :
-#         return cycle_length_store[n]
-#     else :
-#         c =1
-
-#         while (n>1) :
-#             if ( n&1 !=0) :
-#                 n = n/2
-#             else :
-#                 n = 3*n +1
-#             c = c+1
-#         if (valueToStore < 100000) :
-#             cycle_length_store
-#             cycle_length_store[valueToStore] = c
-#         return c
 
 
 
