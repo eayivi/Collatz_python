@@ -12,27 +12,29 @@
 # cycle_length
 # ------------
 
-cycle_length_store = [0] * 100000
+cycle_length_store = [0] * 1000000
 
 def cycle_length (n) :
 
-    assert ( n > 0);
-    valueToStore = n
+    #print "n is ", n
+    assert ( n > 0)
+    c =1
 
-    if (n < 100000 and cycle_length_store[n] !=0) :
-        return cycle_length_store[n]
-    else :
-        c =1
+    while (n>1) :
 
-        while (n>1) :
+        if (n < 1000000 and cycle_length_store[n] !=0) :
+            return cycle_length_store[n] +c -1
+
+        else :
             if ( n%2 ==0) :
                 n = n/2
+                c = c+1
             else :
                 n = 3*n +1
-            c = c+1
-        if (valueToStore < 100000) :
-            cycle_length_store [valueToStore] = c
-        return c
+                c = c+1
+
+    assert (c>0)
+    return c
 
 
 
@@ -81,23 +83,23 @@ def collatz_eval (i, j) :
     if (i < j/2) :
         return collatz_eval(j/2,j);
     else :
-        v = cycle_length(j)
 
-        while (i <j) :
-            temp_cycle = cycle_length(i)
+        v = 0
+
+        while (i <= j) :
+            if (cycle_length_store[i] !=0) :
+                temp_cycle = cycle_length_store[i]
+            else :
+                temp_cycle = cycle_length(i)
+                if (i < 1000000) :
+                    #print "stored"
+                    cycle_length_store[i] = temp_cycle
+
             if (temp_cycle > v) :
                 v = temp_cycle
             i = i+1
 
     return v
-
-
-
-
-    #end of my code
-    assert v > 0
-    return v
-
 # -------------
 # collatz_print
 # -------------
