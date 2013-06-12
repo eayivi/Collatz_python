@@ -15,8 +15,13 @@
 cycle_length_store = [0] * 1000000
 
 def cycle_length (n) :
+    """
+    reads an ints into n
+    evaluates the cycle length of n
+    return the cycle length of n
+    """
 
-    #print "n is ", n
+
     assert ( n > 0)
     c =1
 
