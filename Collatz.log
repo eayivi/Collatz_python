@@ -1,3 +1,15 @@
+commit d44ecd906b4fc4b83f47c7b6ddef07f75da23686
+Author: eayivi <enam.ayivi@utexas.edu>
+Date:   Wed Jun 12 00:16:01 2013 -0500
+
+    rename makefile.py to makefile
+
+commit a8ee4bb220e48f2b56d6bc692cd288dc3333e641
+Author: eayivi <enam.ayivi@utexas.edu>
+Date:   Wed Jun 12 00:14:25 2013 -0500
+
+    removed makefile
+
 commit da84b0d1d4f022b72f8fc23f4bc4e5d34dc3c28e
 Author: eayivi <enam.ayivi@utexas.edu>
 Date:   Wed Jun 12 00:06:29 2013 -0500

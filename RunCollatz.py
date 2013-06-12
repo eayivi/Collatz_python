@@ -4,6 +4,7 @@
 # projects/collatz/RunCollatz.py
 # Copyright (C) 2013
 # Glenn P. Downing
+# Enam Ayivi cs_username:eayivi uteid: aea787
 # -------------------------------
 
 """
