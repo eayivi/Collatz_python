@@ -1,3 +1,9 @@
+commit f2b8ef389b6f1f0d89840e7adeed3721c80ca057
+Author: eayivi <enam.ayivi@utexas.edu>
+Date:   Tue Jun 11 23:42:14 2013 -0500
+
+    Used Pydoc to document the interfaces fixes #8
+
 commit f21c8250af20ad81d7b256cd35e011c05d10023f
 Author: eayivi <enam.ayivi@utexas.edu>
 Date:   Tue Jun 11 23:21:50 2013 -0500
