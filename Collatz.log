@@ -1,0 +1,72 @@
+commit d44ecd906b4fc4b83f47c7b6ddef07f75da23686
+Author: eayivi <enam.ayivi@utexas.edu>
+Date:   Wed Jun 12 00:16:01 2013 -0500
+
+    rename makefile.py to makefile
+
+commit a8ee4bb220e48f2b56d6bc692cd288dc3333e641
+Author: eayivi <enam.ayivi@utexas.edu>
+Date:   Wed Jun 12 00:14:25 2013 -0500
+
+    removed makefile
+
+commit da84b0d1d4f022b72f8fc23f4bc4e5d34dc3c28e
+Author: eayivi <enam.ayivi@utexas.edu>
+Date:   Wed Jun 12 00:06:29 2013 -0500
+
+    updated comments
+
+commit f2b8ef389b6f1f0d89840e7adeed3721c80ca057
+Author: eayivi <enam.ayivi@utexas.edu>
+Date:   Tue Jun 11 23:42:14 2013 -0500
+
+    Used Pydoc to document the interfaces fixes #8
+
+commit f21c8250af20ad81d7b256cd35e011c05d10023f
+Author: eayivi <enam.ayivi@utexas.edu>
+Date:   Tue Jun 11 23:21:50 2013 -0500
+
+    Acceptance tests functional Fixes #5
+
+commit 38b3c0057bd4cf5731caeaeeeae6694d1d289491
+Author: eayivi <enam.ayivi@utexas.edu>
+Date:   Mon Jun 10 22:34:02 2013 -0500
+
+    Unit tests implemented
+
+commit da4df83bab87649d2903d96fbbe01dfaceab75e9
+Author: eayivi <enam.ayivi@utexas.edu>
+Date:   Mon Jun 10 22:03:00 2013 -0500
+
+    Significant speed improvement
+
+commit 52f76647790f83861801b198f2856e6f98f988af
+Author: eayivi <enam.ayivi@utexas.edu>
+Date:   Mon Jun 10 22:02:20 2013 -0500
+
+    implement cache
+
+commit 271cbafe9658debc130f6aa3eb6bf740522047b5
+Author: eayivi <enam.ayivi@utexas.edu>
+Date:   Mon Jun 10 22:01:04 2013 -0500
+
+    Implemented working version of Collatz
+
+commit 8db5535b8d76435b6180817c0fa8326c3cd59329
+Merge: cb58ba1 c0741c7
+Author: eayivi <enam.ayivi@utexas.edu>
+Date:   Mon Jun 10 18:31:07 2013 -0500
+
+    Merge branch 'master' of https://github.com/eayivi/cs373-collatz
+
+commit cb58ba15726ae01ca0c79098c280e245624f3f99
+Author: eayivi <enam.ayivi@utexas.edu>
+Date:   Mon Jun 10 18:30:36 2013 -0500
+
+    initial commit
+
+commit c0741c7786f5dc073df7de54f73545fb83c506a1
+Author: eayivi <enam.ayivi@utexas.edu>
+Date:   Mon Jun 10 16:28:22 2013 -0700
+
+    Initial commit
